@@ -10,3 +10,5 @@ print( load.total_time ) # Returns total time taken to load all page contents, b
 print( load.size ) # Total size of the webpage both css and js
 print( load.files ) # Dictionary list of all files and their load time with size
 ```
+
+Thanks!
