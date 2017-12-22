@@ -100,9 +100,3 @@ class Loady:
 
 			self._load( 'style' )
 			self._load( 'script' )
-
-
-if __name__ == '__main__':
-	l = Loady( 'http://4ward.ng', headers={ 'User-Agent' : 'Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:57.0) Gecko/20100101 Firefox/57.0' } )
-	l.get()
-	print( l.files )
